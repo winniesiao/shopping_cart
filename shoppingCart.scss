@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    // outline: 1px solid red;
+}
+
+body {
+    font-family: "Verdana", "微軟正黑體", Geneva, Tahoma, sans-serif;
+    background-color: #f7e8ce;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+header {
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    flex-flow: row nowrap;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #bbb;
+    div {
+        width: 20%;
+        text-align: center;
+    }
+}
+
+.itemList {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    font-weight: 600;
+    div {
+        box-sizing: border-box;
+        padding: 1%;
+        margin: 1%;
+        width: 18%;
+        text-align: center;
+        img {
+            width: 100%;
+        }
+        input {
+            width: 50%;
+        }
+        p {
+            margin: 10px 0;
+        }
+    }
+}
+
+.subtotal {
+    color: rgb(128, 0, 0);
+}
+
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 60px;
+    text-align: right;
+    color: #f00;
+    font-size: 18px;
+    font-weight: 600;
+}

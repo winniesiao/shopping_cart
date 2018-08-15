@@ -1,0 +1,149 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Verdana", "微軟正黑體", Geneva, Tahoma, sans-serif;
+  background-color: #f7e8ce;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cartItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  border: 2px solid #ccc;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.itemInfo {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  height: 200px;
+  padding: 2%;
+  border-right: 2px solid #ccc;
+  text-align: center;
+}
+
+.itemInfo img {
+  width: 40%;
+}
+
+.itemInfo span {
+  display: block;
+  margin: 8px 0;
+}
+
+.content {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  padding: 1%;
+  border-right: 2px solid #ccc;
+}
+
+.content div {
+  margin: 10px;
+}
+
+.shopBtn {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: 1%;
+  text-align: center;
+}
+
+.cartProcess {
+  display: inline-block;
+  border: 1px solid #800000;
+  border-radius: 5px;
+  padding: 1px 4px;
+  cursor: pointer;
+  color: #800000;
+}
+
+.cartProcess a {
+  display: inline-block;
+  text-decoration: none;
+  color: #800000;
+}
+
+.cartProcess:hover a,
+.cartProcess:hover {
+  color: #fff;
+  background-color: #800000;
+}
+
+.prodPart ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.prodPart ul > li {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1%;
+  margin: 1%;
+  width: 23%;
+  border: 1px solid #bbb;
+  background-color: white;
+}
+
+.prodPart ul > li:hover {
+  -webkit-box-shadow: 2px 2px #aaa;
+          box-shadow: 2px 2px #aaa;
+}
+
+.prodPart li > div {
+  margin: 7px 0 7px;
+  text-align: center;
+}
+
+.addButton {
+  border: 1px solid #800000;
+  border-radius: 5px;
+  padding: 2px 4px;
+  cursor: pointer;
+  color: #800000;
+}
+
+.addButton:hover {
+  color: #fff;
+  background-color: #800000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=productList.css.map */

@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    // outline: 1px solid red;
+}
+
+body {
+    font-family: "Verdana", "微軟正黑體", Geneva, Tahoma, sans-serif;
+    background-color: #f7e8ce;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cartItem {
+    display: flex;
+    flex-flow: row nowrap;
+    border: 2px solid #ccc;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.itemInfo {
+    flex: 3;
+    height: 200px;
+    padding: 2%;
+    border-right: 2px solid #ccc;
+    text-align: center;
+    img {
+        width: 40%;
+    }
+    span {
+        display: block;
+        margin: 8px 0;
+    }
+}
+
+.content {
+    flex: 3;
+    padding: 1%;
+    border-right: 2px solid #ccc;
+    div {
+        margin: 10px;
+    }
+}
+
+.shopBtn {
+    flex: 2;
+    padding: 1%;
+    text-align: center;
+}
+
+.cartProcess {
+    display: inline-block;
+    border: 1px solid #800000;
+    border-radius: 5px;
+    padding: 1px 4px;
+    cursor: pointer;
+    color: #800000;
+    a {
+        display: inline-block;
+        text-decoration: none;
+        color: #800000;
+    }
+}
+
+.cartProcess:hover a,
+.cartProcess:hover {
+    color: #fff;
+    background-color: #800000;
+}
+
+.prodPart {
+    ul {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    ul>li {
+        box-sizing: border-box;
+        padding: 1%;
+        margin: 1%;
+        width: 23%;
+        border: 1px solid #bbb;
+        background-color: rgba(255, 255, 255, 1);
+    }
+    ul>li:hover {
+        box-shadow: 2px 2px #aaa;
+    }
+    li>div {
+        margin: 7px 0 7px;
+        text-align: center;
+    }
+}
+
+.addButton {
+    border: 1px solid #800000;
+    border-radius: 5px;
+    padding: 2px 4px;
+    cursor: pointer;
+    color: #800000;
+}
+
+.addButton:hover {
+    color: #fff;
+    background-color: #800000;
+    transition: 0.3s;
+}
